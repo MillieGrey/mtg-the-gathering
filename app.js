@@ -6,7 +6,7 @@ var battleField = document.getElementById("battleField");
 var playerRow1 = document.getElementById("playerRow1");
 var playerRow2 = document.getElementById("playerRow2");
 
-//game start script,  sets the state to active, probably gonna tie the "gameclock" to the priority system, will have that chake for gamestate, do pausing with that.
+//game start script,  sets the state to active, probably gonna tie the "gameclock" to the priority system, will have that check for gamestate, do pausing with that.
 gameStart = function () {
     if ((boardState.gameState = "inactive")) {
         gameSpace.innerHTML = "wat";
